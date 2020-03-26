@@ -1,0 +1,37 @@
+Jenkins Installation:
+1.sudo yum install java-1.8.0-openjdk-devel
+2.curl --silent --location http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo | sudo tee /etc/yum.repos.d/jenkins.repo
+3.sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+4.sudo yum install jenkins
+5.sudo systemctl start jenkins
+6.sudo systemctl status jenkins
+7.To change port:vi /etc/sysconfig/jenkins
+
+Master slave:
+https://www.youtube.com/watch?v=eXZ4uidLQUU
+Maven Integration with Jenkins:
+https://www.youtube.com/watch?v=BfJvxGs-HxQ&t=713s
+
+
+Jenkins integration with S3 | Store/Upload build artifact on S3 |Highly Durable Artifact Repository
+https://www.youtube.com/watch?v=GQZYpIRxi-g
+
+git hub link:https://github.com/ValaxyTech/DevOpsDemos/blob/master/Jenkins/S3_Artifact_for_Jenkins.md
+
+
+IQ:https://www.softwaretestinghelp.com/jenkins-interview-questions/
+
+GO CD:
+https://www.gocd.org/getting-started/part-1/
+
+Ansible_topics:
+https://www.decodingdevops.com/how-to-install-ansible-on-aws-ec2-instances/
+
+Ansible roles:
+https://www.digitalocean.com/community/tutorials/how-to-use-ansible-roles-to-abstract-your-infrastructure-environment
+
+GIT IQ:
+https://www.qaautomation.co.in/2019/06/git-interview-question-answers-tester.html
+
+Terraform:
+https://www.youtube.com/watch?v=RA1mNClGYJ4
